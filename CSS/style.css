@@ -1,103 +1,160 @@
 header{
-    background-color: #ebebe5;
+    background-color:#ebebe5;
     padding: 50px;
 }
 header ul{
     float: right;
-    color: black;
+    color: #303942;
 }
 header li{
     display: inline-block;
     padding: 0px 45px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.logo{
-    display: flex;
-    flex-direction:row;
-    background-color: #7A8A83;
-    justify-content: center;
-    padding: 100px;
-    margin: auto;
-    width: 85vw;
-    height: 50vh;
+header li:hover{
+    font-weight: bold;
 }
-.heroImg img{
-    width: 60%;
-    padding: 50px 100px;
-    margin: 50 auto;
-}
-.herotext{
+.logo {
+    padding:1%;
+    height: 500px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("/Images/ocean2.png");
+    background-repeat: none;
+    background-attachment: ;
+    background-size:cover;
+    background-position: center center;
+  }
+.centered{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 25%;
+    left: 35%;}
+.name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: #303942;
+}
+.work{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303942;
+    font-size: 25px;
+    font-weight:550;
 }
 .aboutme{
     background-color: #ebebe5;
     display: flex;
     flex-direction: row;
+    height: 700px;
 }
-.potrate{
-    width: 50%;
-    padding: 100px;
+.portrait img{
+    padding: 10px;
+    padding-left: 18px;
+    height: 400px;
+    width: 300px;
+}
+.polaroid{
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 150px;
+    margin-top: 85px;
+}
+div.container{
+    text-align: center;
+    padding: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:#303942;
 }
 .aboutmetext{
     text-align: center;
     width: 50%;
     padding: 200px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #303942;
+    font-size: 20px;
+}   
+.skills{
+    background-color: #89989B;
 }
 .skills header{
     font-size: 30px;
+    background-color: #ebebe5;
 }
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 75px;
-    background-color: #465A58;
     padding: 100px;
     justify-content: center;
   }
   .grid-container > div {
     background-color: #ebebe5;
     text-align: center;
-    padding: 100px 75px;
+    padding: 65px 75px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .casestudies{
+  .design{
     background-color: #ebebe5;
     font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#303942;
+    height: 900px;
   }
-  .grid-containertwo {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 75px;
+  .design header{
     background-color: #ebebe5;
-    padding: 75px;
-    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#303942
   }
-  .grid-containertwo > div {
-    background-color: #7A8A83;
+  .worksofart{
+    box-sizing: border-box;
+    background-color: #ebebe5;
+  }
+  .column{
+    float: left;
+    width:32%;
+    padding: 5px;
+    background-color: #ebebe5;
+  }
+  .worksofart .polaroid{
+    width: 70%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 100px;
+    margin-top: 85px;
+  }
+  .worksofart .polaroid img{
+    padding: 10px;
+    padding-left: 18px;
+    height: 400px;
+    width: 300px;
+  }
+  div.container{
     text-align: center;
-    padding: 150px 150px;
+    padding: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    color:#303942;
   }
   .contactme{
-    background-color: #8E968B;
+    background-color: #89989B;
     font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding: 30px;
+    color:#303942;
+    display: center;
   }
   .contactme header{
-    background-color: #8E968B;
+    background-color: #89989B;
     font-size: 30px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#303942
 }
   .contactme ul{
+    display: center;
     float: center;
     list-style: none;
     padding-left: 100px;
@@ -105,28 +162,34 @@ header li{
 .contactme li button {
     display: center;
     padding: 12px 28px;
-    padding: 10px;
-    color: black;
+    color: #303942;
     font-size: 16px;
-    border-radius: 4px;
+    border-radius: 30px;
     width: 150px;
     transition-duration: 0.4s;
+    border-radius: 12px;
+    border-color:#303942;
 }
 .contactme li button:hover{
-    background-color: darkgrey;
+    background-color: #F2D192;
+    color:#303942;
+    transition-duration: 1s;
 }
 .footer{
-    background-color: #CCCDC8;
+    background-color: #89989B;
     padding: 75px;
-    color: black;
+    color: #303942;
 }
 .footer ul{
     float: center;
     list-style: none;
     padding-left: 100px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .footer li{
     display: inline-block;
     padding: 0px 75px;
+}
+.footer li:hover{
+    font-weight: bold;
 }
