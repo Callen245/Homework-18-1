@@ -18,7 +18,7 @@ header li:hover{
     padding:1%;
     height: 500px; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("/Images/ocean2.png");
+    background-image: url("../Images/ocean2.png");
     background-repeat: none;
     background-attachment: ;
     background-size:cover;
